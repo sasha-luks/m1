@@ -124,22 +124,25 @@
 					}(this, e)
 				}
 				
-				
-				
-				
-				
-				
-				
-				
-				
-					const user = {
-  name: 'alex', 
-  age: 5
-};
-
-localStorage.setItem('user', user);
+				var t, n, r;
+				return t = e, r = [
+				{
+					key: "set",
+					value: function(magaz, s)
+					{
+						localStorage.setItem(magaz, JSON.stringify(s))
+					}
+				},
+				{
+					key: "get",
+					value: function(magaz)
+					{
+						return JSON.parse(localStorage.getItem(magaz))
+					}
 				}], (n = null) && s(t.prototype, n), r && s(t, r), e
 			}();
+
+				
 
 			function l(e, t, n)
 			{
