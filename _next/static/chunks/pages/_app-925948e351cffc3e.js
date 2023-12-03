@@ -125,7 +125,7 @@
 				}
 				
 				var t, n, r;
-				return t = e, r = [
+				return s = magaz, r = [
 				{
 					key: "set",
 					value: function(magaz, s)
