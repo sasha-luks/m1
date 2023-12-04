@@ -123,19 +123,18 @@
 						if (!(e instanceof t)) throw new TypeError("Cannot call a class as a function")
 					}(this, e)
 				}
-				
 				var t, n, r;
-				return s = magaz, r = [
+				return t = e, r = [
 				{
 					key: "set",
-					value: function(magaz, s)
+					value: function(e, t)
 					{
 						localStorage.setItem(magaz, JSON.stringify(s))
 					}
 				},
 				{
 					key: "get",
-					value: function(magaz)
+					value: function(e)
 					{
 						return JSON.parse(localStorage.getItem(magaz))
 					}
