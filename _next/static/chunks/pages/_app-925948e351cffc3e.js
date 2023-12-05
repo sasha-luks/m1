@@ -129,19 +129,17 @@
 					key: "set",
 					value: function(e, t)
 					{
-						localStorage.setItem(magaz, JSON.stringify(s))
+						localStorage.setItem(e, JSON.stringify(t))
 					}
 				},
 				{
 					key: "get",
 					value: function(e)
 					{
-						return JSON.parse(localStorage.getItem(magaz))
+						return JSON.parse(localStorage.getItem(e))
 					}
 				}], (n = null) && s(t.prototype, n), r && s(t, r), e
 			}();
-
-				
 
 			function l(e, t, n)
 			{
